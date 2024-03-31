@@ -1,0 +1,31 @@
+/*
+Created by Joshua J Byrne M.Ed. FSD
+Date: 31 March 2024
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: Arial, sans-serif;
+    position: relative; /* Needed to position the logo absolutely */
+}
+#logo {
+    position: absolute;
+    top: 100; /* Adjust the space from the top */
+    left: 100px; /* Adjust the space from the left */
+    width: 300px; /* Adjust based on your logo's size */
+    height: auto; /* Keeps the aspect ratio of the logo */
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px; /* Added padding to avoid overlap with the logo */
+}
+iframe#scormContent {
+    border: none; /* Removes the default border */
+    background-color: #333; /* Darker shade for the iframe background */
+}
