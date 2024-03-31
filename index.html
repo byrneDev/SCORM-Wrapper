@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-
-<!-- Author: Joshua J Byrne M.A. FSD.
-	 Date: 29 March
--->
-
+<!-- Author: Joshua J Byrne M.A. FSD. Date: 29 March -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>SCORM Wrapper</title>
+    <link rel="stylesheet" href="scorm_simulator.css">
     <script src="scorm_simulator.js"></script>
 </head>
 <body>
-	
-	<!--Replace "scorm_content/index.html" with the path to the main file of your SCORM package.-->
-	
-<div align="middle">	
-    <iframe id="scormContent" src="scorm_content/index.html" width="1000" height="600"></iframe>
-</div>
-	
+    <img src="images/logoGreyIcon@2x.png" alt="Logo" id="logo"> <!-- Logo added here -->
+    <div id="wrapper">
+        <iframe id="scormContent" src="scorm_content/index.html" width="1000" height="600"></iframe>
+    </div>
+	<h2 align="center">Wrapper.js</h2>
+
 </body>
 </html>
